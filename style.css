@@ -1,1 +1,16 @@
+.header {
+    border: 5px ridge rgb(0, 0, 0); /* Рамка */
+    background-color: rgb(255, 245, 154);
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
 
+.header p {
+    font: small-caps bold 1.5rem sans-serif; /* Тест имя */
+    text-align: center;
+}
+
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
